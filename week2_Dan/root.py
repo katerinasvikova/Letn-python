@@ -29,3 +29,4 @@ while abs(right-left) > tol:
 
 root = (left + right) / 2.0
 print("{0:.8f}".format(root))
+
