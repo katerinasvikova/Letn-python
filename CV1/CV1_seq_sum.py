@@ -1,6 +1,6 @@
-#nums = list(map(int, input().split()))
+nums = list(map(int, input().split()))
 
-nums = [0, 1, 4, -4, 8, 1]
+#nums = [0, 1, 4, -4, 8, 1]
 #[5, -2, -2, 10, 8]
 #[20, -7, -7, -2, 0, 1, 3, 5, 5, 10]
 #[0, 1, 4, -4, 8, 1]
@@ -47,7 +47,7 @@ def odd_sequence(nums):
     print(sum(b)) #print the sum of sequence
     print(b) #print the sequence
 
-print(odd_sequence(nums))
+odd_sequence(nums)
 
 
 
